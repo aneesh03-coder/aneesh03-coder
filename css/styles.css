@@ -1,0 +1,202 @@
+
+/*************************** HTML elements ****************************/
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family: "Montserrat-Bold";
+font-weight: bold;
+}
+
+p{
+ color:#8f8f8f;
+}
+
+/* Headings */
+.heading{
+  padding-right: 20%;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  font-family: "Montserrat-Black";
+}
+
+
+.align{
+  text-align: left;
+}
+
+/****************************************** Sections ********************/
+
+.coloured-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+
+
+/**************************************Title Section ********************/
+
+/*Navigation Bar*/
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.nav-item
+{
+  padding: 0 16px 0;
+  font-size: 1.5rem;
+  font-family: "Montserrat-light";
+}
+
+/*Layouts Images and Buttons*/
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.apple{
+  color: #fff;
+}
+.phone{
+  width: 50%;
+  transform:rotate(25deg);
+  position: absolute;
+  right: 23%;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+  text-align: left;
+}
+
+
+/**************************************Features Section*********************/
+
+#features{
+  padding: 0.5% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  padding:7%;
+  line-height: 2;
+}
+
+
+/*************************************Testimonial Section*****************/
+
+
+#testimonials{
+ background-color: #ef8172;
+ color: #fff;
+}
+.testimonial-text{
+  font-size:3rem;
+  line-height: 1.5;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/*Images*/
+
+.testimonial-image{
+width: 10%;
+border-radius: 100%;
+margin:20px;
+
+}
+
+
+/*****************************Press Section*****************************/
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 4%;
+}
+.press-logo{
+  width: 13%;
+  margin:20px 20px 50px;
+}
+
+
+/*********************************Pricing Section************************/
+
+
+#pricing{
+  padding:100px;
+}
+.pricing-text{
+    font-size:3rem;
+    line-height: 1.5;
+}
+.pricing-column{
+  padding:3% 2%;
+}
+.section-text{
+  font-size:3rem;
+  line-height: 1.5;
+}
+
+/**************************************Call to Action*********************/
+
+.cta{
+  min-height: 400px;
+}
+.dowload-heading{
+  font-size: 60px;
+  padding: 60px 0 0;
+}
+.download-button1{
+  margin: 5% 2% 5% 0;
+}
+
+
+
+
+
+/**********************************Footer Section************************/
+
+.footer{
+  padding: 5% 0;
+}
+
+/* Images and Buttons */
+
+.social-icon{
+  margin:20px 10px;
+}
+.icon{
+  color: #ef1872;
+  margin-bottom: 0.3em;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+
+
+/******************************* Media Breakpoints ***********************/
+
+@media (max-width:1028px) {
+  .phone{
+    position: static;
+    transform: rotate(0);
+  }
+  .heading{
+    padding:5% 5%;
+  }
+  .align{
+    text-align: center;
+  }
+}
